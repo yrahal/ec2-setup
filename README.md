@@ -49,7 +49,7 @@ To check that the hardware is correctly set up.
 
 And if you plan on having Docker containers use the GPU:
 
-`$ nvidia-docker run --rm nvidia/cuda nvidia-smi`
+`$ nvidia-docker run --rm nvidia/cuda:8.0-devel nvidia-smi`
 
 To check that it's correctly exposed to them (it should have the same output as the previous command).
 
